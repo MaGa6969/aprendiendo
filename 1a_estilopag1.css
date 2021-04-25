@@ -1,0 +1,101 @@
+body {
+    background: blueviolet;
+    color: deepskyblue;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: sandybrown;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 ;
+    box-shadow: 0px 10px 10px -6px #999999;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    align-items: center;
+}
+.logo {
+    margin-left: 25px;
+    max-width: 100%;
+    width: 90px;
+    height: 50px;
+}
+.barra navegacion {
+    display: flex;
+    list-style: none;
+    height: 60px;
+    justify-content: space-around;
+    margin-right: 25px;
+}
+.menu navegador {
+    display: flex;
+}
+.menu navegador a {
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFF;
+}
+.cambio puntero {
+    background-color: sandybrown;
+    color: #000000;
+}
+.menu navegador a:hover {
+    color: #000000;
+    background-color: sandybrown;
+}
+.pag_inicio {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+#text-sandybrown {
+    color: sandybrown;
+    font-weight: bold;
+    font-family: Jokerman ;
+}
+main {
+    margin: 0;
+    padding: 30px 50px;
+    text-align: center;
+}
+.pt-100 {
+    padding-top: 100px;
+    font-size: 48px;
+    line-height: 50px;
+    margin-left: 20px;
+    color: #FFF;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+.button a:hover {
+    border: 1px solid greenyellow;
+}
+.button a {
+    color:#FBB03B;
+    text-shadow: 0 0.5px 0.5px rgba(0,0,0,0.35);
+    padding: 10px 20px;
+    margin: 0;
+    border: 1px solid #999999;
+    border-radius:20px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:500;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: 20px;
+}
+header {
+    background: #7aa1d2;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
